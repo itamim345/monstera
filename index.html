@@ -15,20 +15,117 @@
     />
     <style>
       /* Write styles here */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Allerta;
+      }
+      /* nav area css */
       #navbarMonstera{
         overflow: hidden;
+        padding: 10vh 10vh;
       }
-      #navFirst,#navMid,#navEnd{
+      #navFirst,#navMid{
         float: left;
+      }
+      #navFirst{
+        margin-top: 4vh;
+      }
+      #navFirst img {
+        height: 7vh;
+      }
+      #navMid{
+        padding : 0 10vw;
       }
       #navMid div{
         display: inline-block;
         margin: 0 15px;
       }
+      #navMid div h4 {
+        font-size: 1.5vw;
+        font-weight: 100;
+      }
+      #navEnd {
+        margin-top: 5.6vh;
+        float: right;
+      }
       #navEnd div {
         display: inline-block;
-        margin: 0 15px;
+        margin: 0 10px;
       }
+      #navEnd div img {
+        height: 5vh;
+      }
+      /* midWhole area css */
+      #monstera{
+        margin: 0;
+        font-size: 7vw;
+      }
+      #midWholePart1 {
+        width: 60%;
+        float: left;
+      }
+      #midWholePart1 + div{
+        width: 40%;
+        float: right;
+      }
+      #midWholePart11 ul li{
+        font-size: 12px;
+      }
+      #midWholePart11 ul{
+        margin: 10vh 0 5vh 0;
+      }
+      #midWholePart121 h1 {
+        border-radius: 3vw;
+        font-size: 2vw;
+        font-weight: 100;
+        padding: 12px 40px;
+        background: #466D50;
+        display: inline-block;
+        margin-left: 4vw;
+        color: #fff;
+        margin-bottom: 3vw;
+      }
+      #midWholePart1 + div img{
+        width: 100%;
+      }
+      .midWholePart13Parts{
+        width: 31.3%;
+        float: left;
+        margin: 1%;
+      }
+      .midWholePart13Parts div:nth-child(1) {
+        width: 25%;
+        float: left;
+        margin: 1%;
+      }
+      .midWholePart13Parts div:nth-child(1) img {
+        width: 80%;
+        float: left;
+      }
+      .midWholePart13Parts div:nth-child(2) {
+        width: 71%;
+        float: left;
+        margin: 1%;
+      }
+      .midWholePart13Parts div:nth-child(2) h4 {
+        margin: 0;
+        font-size: 1.3vw;
+      }
+      .midWholePart13Parts div:nth-child(2) p {
+        margin: 0;
+        font-size: .8vw;
+      }
+      #midWholePart13 {
+        overflow: hidden;
+        padding: 0 10vh;
+      }
+  
+    
+      
+      
+
+
     </style>
   </head>
   <body>
@@ -87,7 +184,7 @@
         <div id="midWholePart12">
           <div id="midWholePart121">
             <div>
-              <h1>DISCOVER</h1>
+              <h1>DISCOVER ></h1>
             </div>
             <div id="midWholePart122">
               <img src="./photos/greaterThan.svg" />
@@ -97,7 +194,7 @@
         <div id="midWholePart13">
           <div class="midWholePart13Parts">
             <div>
-              <img id="feeding" src="./photos/water plant.png" />
+              <img id="feeding" src="./photos/water-plant.png" />
             </div>
             <div>
               <h4>Feeding</h4>
