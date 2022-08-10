@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MONSTERA</title>
     <link
       href="https://fonts.googleapis.com/css?family=Allerta"
       rel="stylesheet"
@@ -120,12 +120,37 @@
         overflow: hidden;
         padding: 0 10vh;
       }
-  
-    
       
+      /* Responsive CSS */
+      @media (max-width:992px){
+          #navFirst,#navMid,#navEnd{
+            float: inherit;
+          }
+          #navMid {
+            padding: 3vh 0;
+          }
+          #navEnd {
+            margin: 0;
+          }
+          #navbarMonstera{
+            text-align: center;
+            padding: 3vh 0;
+          }
       
-
-
+      }
+      @media (max-width: 768px){
+          #midWholePart1 {
+            width: 100%;
+            float: inherit;
+          }
+          #midWholePart1 + div{
+            width: 100%;
+            float: inherit;
+          }
+          #midWholePart121 h1 {
+            margin-left: 10vw;
+          }       
+      }
     </style>
   </head>
   <body>
@@ -152,7 +177,7 @@
 
       <div id="navEnd">
         <div>
-          <img src="/photos/cart.svg" />
+          <img src="./photos/cart.svg" />
         </div>
         <div>
           <img src="./photos/user.svg" />
